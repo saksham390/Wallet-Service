@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:shardingsphere:classpath:sharding.yml
+    driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
